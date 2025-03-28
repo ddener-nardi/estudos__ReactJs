@@ -1,6 +1,9 @@
 import './App.css'
 
 import City from "./assets/cube.jpg"
+import ListRender from './components/ListRender'
+import ManageData from './components/ManageData'
+import ConditionalRender from './components/ConditionalRender'
 
 function App() {
 
@@ -15,6 +18,9 @@ function App() {
         <div>
           <img src={City} alt="" />
         </div>
+        <ManageData></ManageData>
+        <ListRender></ListRender>
+        <ConditionalRender></ConditionalRender>
       </div>
     </>
   )
